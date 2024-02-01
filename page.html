@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Numbers Example</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <h1>Add Numbers Example</h1>
+
+    <!-- Display area for the result -->
+    <div id="result"></div>
+
+    <!-- Call the JavaScript function and display the result -->
+    <script>
+        // Example numbers
+        var number1 = 5;
+        var number2 = 10;
+
+        // Call the addNumbers function from the script.js file
+        var result = addNumbers(number1, number2);
+
+        // Display the result in the specified element
+        document.getElementById('result').innerHTML = "The sum of " + number1 + " and " + number2 + " is: " + result;
+    </script>
+    <h1></h1>
+
+</body>
+</html>
