@@ -1,8 +1,10 @@
 /* colors.css */
 
 :root {
-    --main-bg-color: #AAAAAA;
-    --primary-text-color: #007bff;
-    --btn-bg-color: #007bff;
-    --btn-hover-bg-color: #0056b3;
+    --primary: #000000;
+    --secondary: #424242;
+    --accent: #8B0000;
+    --title: #B30000;
+    --text: #BBBBBB;
+    --highlight: #660000;
 }

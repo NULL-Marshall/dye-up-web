@@ -3,11 +3,17 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: var(--main-bg-color);
+    background-color: var(--primary);
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    color: var(--primary-text-color);
+    color: var(--title);
+}
+
+p {
+    color: var(--text);
 }
 
 .btn {
@@ -15,12 +21,12 @@ h1 {
     padding: 10px 20px;
     margin-top: 20px;
     text-decoration: none;
-    background-color: var(--btn-bg-color);
+    background-color: var(--title);
     color: #fff;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 .btn:hover {
-    background-color: var(--btn-hover-bg-color);
+    background-color: var(--highlight);
 }
